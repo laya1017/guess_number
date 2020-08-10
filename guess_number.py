@@ -1,5 +1,7 @@
 import random
-r = random.randint(1,100)
+start = int(input('請輸入猜測數字範圍的起始值： '))
+end = int(input('請輸入猜測數字範圍的結束值： '))
+r = random.randint(start,end)
 count = 1
 while True :
 	count += 1
